@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       #MiElemento {
+           border: 5px salmon;
+           width: 100px;
+           height: 100px;
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h2>Change Color Of HTML Element In JavaScript</h2>
+      <div id="MiElemento">Hello World!.......</div>
+      <br>
+      <button type="button" onclick="changeStyle()">Click Me....Plz</button>
+      <script>
+           function changeStyle(){
+                 var element = document.getElementById("MiElemento")
+                 element.style.color = "#FF0000"
+           }
+      </script>
+    
+</body>
+</html>
