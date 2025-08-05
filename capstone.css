@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Jokerman;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+
+    float: left;
+    color: darkgoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: khaki;
+    background-color: blueviolet;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
