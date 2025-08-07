@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Chiller;
+}
+
+.mynavbar{
+    overflow: hidden;
+    background-color: salmon;
+}
+
+.mynavbar a{
+
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dotted;
+    font-size: 21px;
+}
+
+.mynavbar a:hover {
+    color: khaki;
+    background-color: yellowgreen;
+    padding: 15px 15px;
+    font-size: 22px;
+    text-decoration: underline
+}
+
+h2{
+    color: darkblue;
+    font-size: 28px;
+    font-family: jokerman;
+    text-align: center;
+    margin-top: 40px;}
+
+p{
+    color: blueviolet;
+    text-align: center;
+}
+
+#i{
+    text-decoration: line-through;
+}
+
