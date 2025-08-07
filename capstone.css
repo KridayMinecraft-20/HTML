@@ -1,3 +1,5 @@
+/* Navigation Bar*/
+
 body {
     margin: 0;
     font-family: Jokerman;
@@ -6,6 +8,7 @@ body {
 .topnav{
     overflow: hidden;
     background-color: #333;
+    text-align: center;
 }
 
 .topnav a{
@@ -24,4 +27,18 @@ body {
     padding: 15px 15px;
     font-size: 20px;
     text-decoration: underline;
+}
+/*Slider*/ 
+
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300;
+}
+
+.myslides{
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
 }
