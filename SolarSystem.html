@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Solar System</title>
+</head>
+<body>
+    
+
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f7ff;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #1e90ff;
+    }
+    p {
+      font-size: 20px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #ffcc00;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffdb4d;
+    }
+    #planet-info {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to the Solar System!</h1>
+  <p>Click on a planet to learn something cool about it.</p>
+
+  <button onclick="showInfo('mercury')">Mercury</button>
+  <button onclick="showInfo('venus')">Venus</button>
+  <button onclick="showInfo('earth')">Earth</button>
+  <button onclick="showInfo('mars')">Mars</button>
+  <button onclick="showInfo('jupiter')">Jupiter</button>
+  <button onclick="showInfo('saturn')">Saturn</button>
+  <button onclick="showInfo('uranus')">Uranus</button>
+  <button onclick="showInfo('neptune')">Neptune</button>
+  <button onclick="showInfo('PLZ OPEN once done')">Plz Open</button>
+
+  <div id="planet-info">
+    <!-- Planet info will appear here -->
+  </div>
+
+  <script>
+    function showInfo(planet) {
+      let info = "";
+
+      if (planet === "mercury") {
+        info = " Mercury is the closest planet to the Sun. It's very hot during the day and freezing at night!";
+      } else if (planet === "venus") {
+        info = " Venus is the hottest planet in our solar system. It’s covered with thick clouds.";
+      } else if (planet === "earth") {
+        info = " Earth is our home! It has water, air, and life. It's the third planet from the Sun.";
+      } else if (planet === "mars") {
+        info = " Mars is called the Red Planet. Scientists think it might have had water long ago.";
+      } else if (planet === "jupiter") {
+        info = " Jupiter is the biggest planet! It has a big red storm called the Great Red Spot.";
+      } else if (planet === "saturn") {
+        info = " Saturn has beautiful rings made of ice and rock. It's the second biggest planet.";
+      } else if (planet === "uranus") {
+        info = " Uranus is a blue-green planet that spins on its side. It's very cold and far from the Sun.";
+      } else if (planet === "neptune") {
+        info = " Neptune is the farthest planet. It's dark, cold, and very windy!";
+      } else if (planet === "PLZ OPEN once done") {
+        info = "Sir hope you liked it!";
+      }
+
+      document.getElementById("planet-info").innerHTML = info;
+    }
+  </script>
+
+</body>
+</html>
+
+
+</body>
+</html>
